@@ -1,0 +1,76 @@
+{
+  "port": 3001,
+  "muteStartup": true,
+  "quietHours": {
+    "enabled": false,
+    "start": "22:00",
+    "end": "08:00"
+  },
+  "maxResponses": 5,
+  "conversation": {
+    "audio": {
+      "encodingIn": "LINEAR16",
+      "sampleRateIn": 16000,
+      "encodingOut": "LINEAR16",
+      "sampleRateOut": 24000
+    },
+    "lang": "en-US",
+    "screen": {
+      "isOn": false
+    }
+  },
+  "users": [
+    {
+      "name": "wolfet410@gmail.com",
+      "secret": {
+        "installed": {
+          "client_id": "925024884481-d4mc4rmfsc9hrca7eqs6grmfac1o2jjq.apps.googleusercontent.com",
+          "project_id": "assistant-relay-1-10-2021",
+          "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+          "token_uri": "https://oauth2.googleapis.com/token",
+          "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+          "client_secret": "4CB_JDcS4On7TMUh-5K-2rht",
+          "redirect_uris": [
+            "urn:ietf:wg:oauth:2.0:oob",
+            "http://localhost"
+          ]
+        }
+      },
+      "tokens": {
+        "access_token": "ya29.a0AfH6SMCTmNvKHCExi0lCjerlKgJ1eA-I4Wl2qTSHHiKDcEO-fpB_b2G9QDj9c00NTAO-3RIvdTISnpAA5hbXs4DHPQMt1JOuu4O02YfkPSoLATa0yIhQ-m-bGfQk7oykOJQUBTjbfxtsYILg4nk4JATdylHC8ncEYbznC6OmVXs",
+        "refresh_token": "1//04Y_cLKg4whV6CgYIARAAGAQSNwF-L9Irs0jM0_wJpoTmQjG2ZHzGcJeISyuck4RYFfol1L4JnCtLFb97auUoZdAQieLQQE5WseY",
+        "scope": "https://www.googleapis.com/auth/assistant-sdk-prototype",
+        "token_type": "Bearer",
+        "expiry_date": 1610419625119
+      }
+    }
+  ],
+  "responses": [
+    {
+      "command": "turn off Rex power",
+      "response": "",
+      "timestamp": 1610868024889
+    },
+    {
+      "command": "switch master bedroom light",
+      "response": "",
+      "timestamp": 1610868024934
+    },
+    {
+      "command": "trigger toggle master bedroom fan",
+      "response": "",
+      "timestamp": 1610868025424
+    },
+    {
+      "command": "command1",
+      "response": "",
+      "timestamp": 1610921610138
+    },
+    {
+      "command": "command2",
+      "response": "",
+      "timestamp": 1610921610212
+    }
+  ],
+  "devices": []
+}
